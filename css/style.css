@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Sans:ital@1&family=Poppins:wght@200&family=Roboto:ital@1&family=Rock+Salt&family=Zen+Dots&display=swap');
+
+
+
+
+
+.navbar{
+    background: linear-gradient(135deg, #d0b5d12d  0%, #b250aa 100%) !important;
+    padding:  8px 20px !important;
+}
+.navbar-nav{
+    flex-direction: row !important;
+}
+.navbar-btn{
+    display: flex !important;
+    gap: 10px;
+}
+.nav___titulo, .nav___buscar, .hamburguesa{
+    flex-direction: row !important;
+    display: flex !important;
+    align-items: center;
+}
+.navbar-nav{
+    gap: 30px;
+    font-size: 20px;
+}
+.nav___buscar{
+    width: 25% !important;
+}
+
+.titulo___logo{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.container-menu{
+    display: none;
+}
+.dropdown-menu{
+    position: absolute !important;
+    left: -30px !important;
+}
+
+header{
+    z-index: 2000 !important;
+}
+.fade{
+    background: rgba(0, 0, 0, 0.362) !important;
+}
+.hamburguesa{
+    display: none !important;
+    
+}
+
+
+
+.titulo___title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 2.6rem;
+    align-self: flex-end;
+
+}
+
+
+.nav-link{
+    color: rgba(255, 255, 255, 0.775) !important;
+    transition: .2s ease-in-out all !important;
+}
+.nav-link:hover{
+    text-decoration: underline;
+    text-shadow: 1px 1px 2px white;
+}
+
+.input:focus{
+    box-shadow: 0 0 10px white !important;
+}

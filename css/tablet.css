@@ -1,0 +1,19 @@
+@media only screen and (max-width: 1089px) {
+    .navbar-nav {
+        display: none !important;
+    }
+    .hamburguesa{
+        display: block !important;
+    }
+    .navbar-toggler {
+        width: 50px !important;
+        height: 50px !important;
+        padding: 0 !important;
+    }
+
+    .navbar-toggler-icon{
+        width: 30px !important;
+        margin: auto !important;
+    }
+    }
+

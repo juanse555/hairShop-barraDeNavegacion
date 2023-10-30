@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HairShop</title>
+    <link rel="icon" href="img/LOGO HAIRSHOP B_N.png">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/tablet.css">
+    <link rel="stylesheet" href="css/movile.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+
+    </style>
+</head>
+<body>
+    <header class="header sticky-top bg-body-tertiary">
+        <nav class="navbar">
+            <div class="nav___buscar">
+                <input type="text" class="form-control input" placeholder="Buscar Producto" aria-label="Recipient's username" aria-describedby="button-addon2">
+                <button class="btn btn-outline-secondary" type="button" id="button-addon2"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                </svg></button>
+            </div>
+    
+            <div class="nav___titulo">
+                <img src="img/LOGO HAIRSHOP B_N.png" alt="logo" class="titulo___logo">
+                <h1 class="titulo___title">Hair Shop</h1>
+            </div>
+
+
+
+            <div class="navbar-nav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Producto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contactanos</a>
+                    </li>
+                </ul>
+                <div class="navbar-btn">
+                    <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Ingresar
+                    </a>
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Ingresar</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                            <div class="modal-body">
+                              <form action="">
+                                <div class="mb-3">
+                                    <label for="exampleInputEmail1" class="form-label">Email</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                  </div>
+                                  <div class="mb-3">
+                                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                                    <input type="password" class="form-control" id="exampleInputPassword1">
+                                  </div>
+                              </form>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                              <button type="button" class="btn btn-primary">Validar</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Registrarse
+                      </a>
+                      
+                      <!-- Modal -->
+                      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h1 class="modal-title fs-5" id="exampleModalLabel">Registrarse</h1>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <form action="">
+                                    <div class="mb-3">
+                                        <label for="exampleInputEmail1" class="form-label">Email</label>
+                                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                      </div>
+                                      <div class="mb-3">
+                                        <label for="exampleInputPassword1" class="form-label">Password</label>
+                                        <input type="password" class="form-control" id="exampleInputPassword1">
+                                      </div>
+                                  </form>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                              <button type="button" class="btn btn-primary">Validar</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+
+            </div>
+
+
+            <div class=" hamburguesa">
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                  <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                  </div>
+                  <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            
+        </nav>
+    </header>
+
+
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus, at provident. Neque vitae cumque eos voluptatem, quis nemo. Exercitationem placeat laborum tempore ipsam minima laudantium, optio rem dolorem, debitis quas tenetur vel dolores magni voluptas? Enim minus nam unde id, impedit quibusdam vero, in maxime doloremque tempora ad. Iste perferendis, molestiae velit illo rerum quam minima qui dolor sapiente amet explicabo voluptas eius error quisquam est, omnis quas ab veniam. Aliquid hic nemo unde excepturi et inventore pariatur minus illo nam vero molestiae atque, rerum dolores nostrum. Nulla voluptatem, sequi dignissimos odit earum quasi vero expedita libero totam et aperiam sint facere rerum, quam exercitationem temporibus, accusamus possimus. Impedit obcaecati maiores aliquam, reiciendis sunt, iure deleniti totam perspiciatis quod commodi doloribus incidunt quibusdam molestias consequuntur. In, saepe. Saepe neque suscipit cum ab! Aliquam doloremque eveniet corrupti officiis omnis illum, inventore, assumenda odit atque quis nostrum a? Voluptas eaque eos facilis? Molestiae aliquam eaque eveniet, aperiam assumenda quaerat. Iste magni perspiciatis natus voluptatibus, placeat omnis iusto hic fuga exercitationem sapiente animi perferendis molestiae blanditiis. In tempora, accusamus, dolores voluptates voluptate unde id deserunt vero assumenda, cumque reiciendis recusandae possimus nulla? Culpa obcaecati, voluptatum asperiores, dolor architecto eius aliquam eum nobis id dicta dignissimos, natus quae sunt neque? At minus mollitia nisi, quam molestiae quibusdam velit sit dolore, similique quasi expedita assumenda. Praesentium, modi sequi! Itaque, voluptate natus nostrum officia numquam exercitationem corrupti quidem aspernatur tempora maiores in repellat similique delectus ducimus, laborum molestiae nulla nemo, voluptates unde vitae qui? Possimus ad delectus magni eum quae veritatis corporis distinctio laudantium totam inventore optio, fuga at exercitationem consequuntur reprehenderit? Incidunt, ipsa, esse, rem suscipit exercitationem voluptate assumenda quasi debitis pariatur aliquam voluptas. Reiciendis, deserunt nobis reprehenderit quibusdam quidem facere accusantium, adipisci est nisi eum officiis quas id, expedita cupiditate ex aperiam soluta dolores fugit velit molestiae beatae nesciunt non quia eveniet? Illo autem ut totam rerum neque consequuntur est voluptate eius eum qui reiciendis, voluptatum, ad iusto quia non earum assumenda maxime? Itaque mollitia voluptas repellat officia sunt facilis non nostrum in, ab doloribus officiis enim earum nam, quasi, dolorum dicta rerum odit sed. Beatae dicta iste consequatur possimus consectetur eos ducimus nisi quibusdam quis voluptatem nesciunt adipisci magni voluptatum dolorum exercitationem at mollitia, veritatis ea tempora? Quia sit eos magni in id maiores vitae excepturi qui alias obcaecati eius earum blanditiis, ad amet vel vero dolor! Ratione reiciendis illum qui earum maxime eligendi, sapiente praesentium velit esse fugiat perferendis soluta corporis fuga, assumenda tenetur dicta. Unde a magnam expedita tempora, illo perspiciatis ut facilis, sapiente omnis minus consequuntur quo nihil debitis culpa? Suscipit nobis praesentium accusamus in? Ex dolores enim est esse exercitationem. Temporibus cumque sequi repellat, distinctio quisquam hic nobis obcaecati totam iure unde fugit, quos enim doloremque. Minus ut dolorum quam voluptas a libero. Nam sunt natus id unde animi reiciendis porro? Sint voluptatibus laborum debitis eum obcaecati adipisci reiciendis fugiat, omnis nam delectus sed aperiam ut cupiditate enim facere quidem autem consequatur molestias, ex ab tempora eaque. Quis maiores velit tempore perferendis quasi architecto quas molestiae laborum itaque suscipit, eius asperiores inventore tenetur, accusantium aut ratione voluptatum aperiam nulla quo perspiciatis consequatur laboriosam corporis tempora. Inventore tenetur dolorem alias sit maiores minus amet eveniet nihil. Similique suscipit quo quidem esse quis libero corporis quibusdam voluptas est placeat aut, autem natus tempore at, vel illum rem molestias quod maxime laboriosam consectetur fuga. Optio, dicta soluta fuga quo quod similique omnis et sint? Pariatur asperiores unde ducimus error magni consequuntur voluptas maxime! Hic saepe voluptas excepturi non, voluptates quo ipsum, ab quae mollitia perferendis aperiam corporis veniam aliquam nihil? Ipsam eveniet quidem obcaecati commodi recusandae non nulla totam, ex nam cumque ipsum excepturi iure eum quia earum illum quaerat magnam maxime dicta hic labore atque velit natus veniam. Unde, qui. Aut nesciunt illo magni dolore animi eligendi quaerat cumque amet labore quibusdam, soluta perferendis id ipsam ad. Corporis sapiente recusandae veritatis possimus quia! Vel expedita amet, vero laborum consequuntur veritatis, eum beatae quis veniam a reprehenderit officia dolorem aliquam rem fugiat autem quos. Reprehenderit quidem corrupti deserunt, debitis veritatis animi, placeat hic quod provident, cumque ea exercitationem. Quaerat tempore doloremque perferendis, modi natus facilis iusto. Quam nisi cum fuga, alias velit officiis nostrum quae fugiat ullam vel. Laborum nostrum voluptatum quam, officiis delectus eius dolor maiores deserunt harum reprehenderit deleniti quis. Neque, iusto. Ratione officiis distinctio facilis vitae pariatur earum deserunt, ex sunt animi nostrum natus, obcaecati iusto veritatis iure veniam eos optio modi repellat maxime! Consectetur cum dolores quaerat beatae nisi quas voluptates enim, at, id provident, recusandae voluptatum quibusdam quidem dolorum eos natus ipsum nobis adipisci delectus cupiditate repellendus esse pariatur deleniti optio. Consequuntur perferendis voluptate nesciunt aut qui quaerat quisquam molestiae, similique eius cumque illum, est voluptates asperiores natus. Tempore quo ab ad et, dolore laudantium fugiat architecto eum hic, quaerat officiis cumque? Repellendus nam, fuga vero ipsum ex pariatur molestias repellat illum ab, veritatis dolores modi ipsam qui corrupti excepturi repudiandae ipsa commodi? Minima voluptatem, illum harum maiores saepe tempore rerum maxime enim porro sint aliquam nostrum aspernatur a fugiat ipsum, dolor neque mollitia autem voluptas impedit? Ad dolore neque fugiat quia id debitis accusamus minus exercitationem veniam explicabo consequatur, eveniet tempora consequuntur eum itaque, magni commodi illo magnam? Quidem laboriosam minus facilis. Quasi excepturi hic perspiciatis numquam dicta, ab magnam, quos alias assumenda voluptates nam illo architecto quae. Quia possimus dicta atque dolore. Adipisci at hic iste in ad, cumque quo quaerat ex recusandae eligendi blanditiis harum veniam consectetur, distinctio unde cupiditate doloribus ut. Debitis voluptatibus rerum placeat quasi ex error aut quae? Perspiciatis natus rerum ab maxime non dolore obcaecati corporis excepturi assumenda sequi adipisci, veritatis quaerat autem, voluptates repellat? Voluptates aperiam veritatis architecto magni, nulla reiciendis provident distinctio natus dolorum soluta accusantium expedita! Necessitatibus aliquam debitis, vitae quidem harum accusantium reprehenderit assumenda sapiente consequatur commodi? Minus voluptates repellat pariatur autem enim. Magnam facere amet consequatur atque tempora consequuntur molestias, rem a aliquid, quos vitae quidem inventore saepe exercitationem ex quaerat eligendi perferendis facilis aut.</p>
+
+
+    <script src="js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

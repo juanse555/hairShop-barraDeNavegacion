@@ -1,0 +1,23 @@
+@media only screen and (max-width: 670px) {
+    .navbar{
+        flex-direction: column-reverse !important;
+        display: flex !important;
+        gap: 20px;
+    }
+
+    .nav___buscar{
+        width: 75% !important;
+    }
+    .nav___titulo, .nav___buscar{
+        align-self: flex-start !important;
+    }
+    .hamburguesa{
+        align-self: flex-end !important;
+        margin-top: 5px !important;
+    }
+    .nav___titulo{
+        margin-top: -75px !important;
+
+    }
+
+    }
