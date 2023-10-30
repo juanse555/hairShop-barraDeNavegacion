@@ -76,3 +76,16 @@ header{
 .input:focus{
     box-shadow: 0 0 10px white !important;
 }
+
+.hambur___ul{
+    list-style: none;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 20px !important;
+}
+.hambur-link{
+    text-decoration: none;
+    color: #b250aa;
+}
+
+
