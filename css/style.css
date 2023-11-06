@@ -2,7 +2,12 @@
 
 
 
-
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    width: 100%;
+}
 
 .navbar{
     background: linear-gradient(135deg, #d0b5d12d  0%, #b250aa 100%) !important;

@@ -1,0 +1,36 @@
+main{
+    display: flex;
+    flex-direction: column;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+    gap: 60px;
+}
+
+.container___productos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    width: 90%;
+    justify-self: center;
+    align-self: center;
+    padding: 2%;
+}
+
+.producto___card{
+    display: flex;
+    flex-direction: column;
+    width: 22.5%;
+    align-items: center;
+    background: linear-gradient(135deg, #d0b5d12d 11%, #b250aa 100%);
+    padding: 2%;
+    border-radius: 5%;
+}
+.card___producto{
+    width: 100%;
+}
+.btn2{
+    background: rgb(204,146,200) !important;
+    border: rgb(204,146,200) !important;
+    margin: auto;
+}
