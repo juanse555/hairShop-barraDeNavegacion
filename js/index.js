@@ -32,3 +32,24 @@ let imagenes = [
     }
 
     setInterval(mmover, 3000)
+
+
+
+    let otro = [
+        "galeri/1.jpg",
+        "galeri/2.jpg",
+        "galeri/3.jpg",
+        "galeri/4.jpg"
+        ]
+        document.galeria.src = otro[0]
+        let contadorDos = 0;
+    
+        function mmover2(){
+            contadorDos++;
+            if(contadorDos > otro.length - 1){
+                contadorDos = 0;
+            }
+            document.galeria.src = otro[contadorDos];
+        }
+    
+        setInterval(mmover2, 3000)
